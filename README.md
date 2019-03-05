@@ -31,3 +31,10 @@ Sexe de l'étudiant(e) qui évalue
 
 ```
 ## Questions posé
+
+Est-ce que les personne qui trompent on une tête à tromper 
+Les femmes trompent t'elles plus que les hommes
+Une personne séduisante trompe t'elle plus ?
+Y a t'il un lien entre le colonne "Trust" et "Faithful" ?
+Y a t'il un lien entre le colonne "SexDimorph" et "Attract" ?
+Y a t'il un lien entre les colonnes "SexDimorph", "Attract", "Trust" et "Faithful" ?
