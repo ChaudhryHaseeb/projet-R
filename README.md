@@ -35,17 +35,43 @@ F  M su
 
 ## Questions posé
 
-Est-ce que les personne qui trompent on une tête à tromper
+### Est-ce que les personne qui trompent on une tête à tromper
     Hypothèse nul : Il n'y a pas de dépendance
     On fais le test du ki2 : p-value = 0.222
-    > 0.05 -> on accept l'hypothése nul
-Ce qui veut dire que les personne qui trompent leur partenaires ne sont pas reconnu avec une simple photo
+    p-value > 0.05 -> on accept l'hypothése nul
+### Ce qui veut dire que les personne qui trompent leur partenaires ne sont pas reconnu avec une simple photo
     
-Les femmes trompent t'elles plus que les hommes
-    Sur 82 femmes .. on déjà trompé leur partenaire, moyenne :   
-    Sur 88 hommes .. on déjà trompé leur partenaire, moyenne :
+### Les femmes trompent t'elles plus que les hommes
+    Sur 82 femmes 23 on déjà trompé leur partenaire, pourcentage : 28%
+    Sur 88 hommes 27 on déjà trompé leur partenaire, pourcentage : 30%
+On peux donc dire que le fait de tromper son partenaire ne dépend pas du sexe.
 
-Une personne séduisante trompe t'elle plus ?
-Y a t'il un lien entre le colonne "Trust" et "Faithful" ?
-Y a t'il un lien entre le colonne "SexDimorph" et "Attract" ?
-Y a t'il un lien entre les colonnes "SexDimorph", "Attract", "Trust" et "Faithful" ?
+### Une personne séduisante trompe t'elle plus ?
+    Hypothèse nul : Il n'y a pas de dépendance
+    On fais le test du ki2 : p-value = 0.66
+    p-value > 0.05 -> on accept l'hypothése nul
+La beauté d'une personne ne définit pas sa fidélité
+
+### Y a t'il un lien entre le colonne "Trust" et "Faithful" ?
+    Hypothèse nul : Il n'y a pas de dépendance
+    coefficient de corrélation = 0.4851078
+    p-value = 2.026e-11
+    La p-value est très inférieur à 0.05, on rejet donc l'hypothèse nul, il y a dépendance entre les variables.
+On peux donc dire que les personnes qui pensent pouvoir faire confiance à la personne en photo on plus tendance à dire que ces personnes sont fidèle en couple
+
+### Y a t'il un lien entre les colonnes "SexDimorph" et "Attract" ?
+    Hypothèse nul : Il n'y a pas de dépendance
+    coefficient de corrélation = 0.6042674
+    p-value < 2.2e-16
+    La p-value est très inférieur à 0.05, on rejet donc l'hypothèse nul, il y a dépendance entre les variables.
+Ce qui veut dire qu'une femme aura plus tendance à être attiré par un homme très masculin et qu'un homme aura plus tendance à être attiré par une femme très féminine
+
+### Y a t'il un lien entre les colonnes "SexDimorph", "Attract", "Trust" et "Faithful" ?
+ACP
+L'axe horizontal représente 50.74% de la variance
+L'axe vertical représente 36.4% de la variance
+Le graph représente donc 87% de la variance
+Toutes les flèches sont près du cercle : toutes les variables sont fortement corrélées aux deux premiers axes.
+Les variables sont cooréllé positivement avec l'axe vertical
+L'axe horizontal on a tendance à penser que les personnes belle ne sont pas fidèle
+L'axe vertical corespond à la confiance et à l'attraction

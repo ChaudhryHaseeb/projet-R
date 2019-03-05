@@ -20,3 +20,18 @@ for(i in 1:length(tabQuanti$Faithful))
         }
 }
 
+tabQuanti = tabQuanti[,-c(1,2,4,6)]
+tabQuanti = table(tabQuanti)
+chisq.test(tabQuanti)
+
+tabF = tab[83:170,]
+tabF = table(tabF$Cheater)
+
+x = tab$SexDimorph
+y = tab$Attract
+cor(x,y)
+cor.test(x,y)
+m = lm(x ~ y)
+summary(m)
+plot(x, y)
+lines(x, fitted(m), col = "blue")
