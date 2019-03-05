@@ -4,18 +4,23 @@ On sait par ailleurs lesquelles de ces 170 personnes se sont montr�es fid�le
 
 SexDimorph
 Evaluation par l'�tudiant(e) du dimorphisme sexuel : la personne est-elle très masculine, tr�s f�minine, ou androgyne ?
+    -> Valeur allant de 2.0 à 6.25 median : 4.0
 
 Attract
 Evaluation par l'�tudiant(e) : la personne est-elle s�duisante ?
+    -> Valeur allant de 1.25 à 6.33 median : 2.95
+
 
 Cheater
 Fid�lit� en couple ou non de la personne (1 = oui, 0 = non)
 
 Trust
 Evaluation par l'�tudiant(e) : peut-on faire confiance � la personne ?
+    -> Valeur allant de 2.353 à 6.25 median : 4.235
 
 Faithful
 Evaluation par l'�tudiant(e) : la personne est-elle fid�le en couple ?
+    -> Valeur allant de 2.765 à 7.176 median : 5.235
 
 FaceSex
 Sexe de la personne
