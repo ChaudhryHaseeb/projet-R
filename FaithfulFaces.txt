@@ -1,0 +1,24 @@
+Des psychologues ont demand� � des �tudiants d'�valuer la photo de 170 autres personnes.
+On s'est arrang� pour que chaque �tudiant �value la photo d'une personne du sexe oppos�.
+On sait par ailleurs lesquelles de ces 170 personnes se sont montr�es fid�les dans leur couple ou non.
+
+SexDimorph
+Evaluation par l'�tudiant(e) du dimorphisme sexuel : la personne est-elle très masculine, tr�s f�minine, ou androgyne ?
+
+Attract
+Evaluation par l'�tudiant(e) : la personne est-elle s�duisante ?
+
+Cheater
+Fid�lit� en couple ou non de la personne (1 = oui, 0 = non)
+
+Trust
+Evaluation par l'�tudiant(e) : peut-on faire confiance � la personne ?
+
+Faithful
+Evaluation par l'�tudiant(e) : la personne est-elle fid�le en couple ?
+
+FaceSex
+Sexe de la personne
+
+RaterSex
+Sexe de l'�tudiant(e) qui �value
