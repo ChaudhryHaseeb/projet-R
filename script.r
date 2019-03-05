@@ -8,17 +8,44 @@ for(i in 1:length(tabQuanti$Faithful))
 {
     if(tabQuanti$Faithful[i]<4)
     {
-        y[i]="faible"
+        tabQuanti$Faithful[i]="faible"
     }
     else if(tabQuanti$Faithful[i]<6)
         {
-            y[i]="moyen"
+            tabQuanti$Faithful[i]="moyen"
         }
         else
         {
-            y[i]="fort"
+            tabQuanti$Faithful[i]="fort"
         }
 }
+tabQuanti = tabQuanti[,-c(1,2,4,6)]
+tabQuanti = table(tabQuanti)
+chisq.test(tabQuanti)
+
+tab = read.csv("Faithfulfaces.csv")
+tabF = tab[1:82,]
+tabM = tab[83:170,]
+y = rep("",length(tab$Attract))
+for(i in 1:length(tab$Attract))
+{
+    if(tab$Attract[i]<3)
+    {
+        tab$Attract[i]="moche"
+    }
+    else if(tab$Attract[i]<5)
+        {
+            tab$Attract[i]="moyen"
+        }
+        else
+        {
+            tab$Attract[i]="beau"
+        }
+}
+tab = tab[,-c(1,2,8,5,6,7)]
+tab = table(tab)
+chisq.test(tab)
+
 
 tabQuanti = tabQuanti[,-c(1,2,4,6)]
 tabQuanti = table(tabQuanti)
