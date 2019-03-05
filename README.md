@@ -29,11 +29,22 @@ Sexe de la personne
 RaterSex
 Sexe de l'étudiant(e) qui évalue
 
-```
+FaceSex :
+F  M su
+82 88
+
 ## Questions posé
 
-Est-ce que les personne qui trompent on une tête à tromper 
+Est-ce que les personne qui trompent on une tête à tromper
+    Hypothèse nul : Il n'y a pas de dépendance
+    On fais le test du ki2 : p-value = 0.222
+    > 0.05 -> on accept l'hypothése nul
+Ce qui veut dire que les personne qui trompent leur partenaires ne sont pas reconnu avec une simple photo
+    
 Les femmes trompent t'elles plus que les hommes
+    Sur 82 femmes .. on déjà trompé leur partenaire, moyenne :   
+    Sur 88 hommes .. on déjà trompé leur partenaire, moyenne :
+
 Une personne séduisante trompe t'elle plus ?
 Y a t'il un lien entre le colonne "Trust" et "Faithful" ?
 Y a t'il un lien entre le colonne "SexDimorph" et "Attract" ?
