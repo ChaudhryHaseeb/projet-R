@@ -31,7 +31,7 @@ x = tab$SexDimorph
 y = tab$Attract
 cor(x,y)
 cor.test(x,y)
-m = lm(x ~ y)
+m = lm(y ~ x)
 summary(m)
 plot(x, y)
 lines(x, fitted(m), col = "blue")
